@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%232f0712' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%235e0f24' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%238e1636' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23bd1e48' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23EC255A' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.text-center{
+  text-align: center;
+  
+}
+.container{
+  width: 60%;
+  margin: 10% auto;
+}
+.ListItems{
+  background:#fff;
+  color: #292C6D;
+  
+}
+.ListItems p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+.ListItems span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #FAEDF0;
+}
+.ListItems span.title{
+  background: #292C6D;
+  color: #fff;
+}
+.ListItems span.name,
+form input[type=text]{
+ width: 60%;
+}
+.ListItems span.age,
+form input[type=number]{
+  width: 30%;
+}
+.ListItems span.action,
+form input[type=submit]{
+  width: 10%;
+}
+.ListItems span.icon{
+  color:#EC255A;
+  cursor: pointer;
+}
+form input{
+  padding: 10px;
+  background: #FAEDF0;
+  border: transparent;
+  border: 0.3px solid #292C6D;
+}
+form input[type=submit]{
+  background: #292C6D;
+  border: 0.3px solid #292C6D;
+  color: #fff;
+  cursor: pointer;
+}
+
